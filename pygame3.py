@@ -13,6 +13,7 @@ pygame.display.set_caption("Bouncing Ball Fun!")
 def random_color():
     return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
+
 # Ball settings
 ball_radius = 20
 ball_x, ball_y = WIDTH // 2, HEIGHT // 2
@@ -23,7 +24,7 @@ ball_color = random_color()
 running = True
 while running:
     pygame.time.delay(30)
-    screen.fill((0, 0, 0))  # Clear screen
+    screen.fill((10, 11, 12))  # Clear screen
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

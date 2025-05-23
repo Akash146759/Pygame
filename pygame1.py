@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()  
 
-screen = pygame.display.set_mode((700, 700))  
+screen = pygame.display.set_mode((400, 400))  
 
 done = False  
 
