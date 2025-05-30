@@ -10,7 +10,7 @@ while not done:
             done = True  
             
     screen.fill((0, 0, 0))  # Clear the screen
-    pygame.draw.rect(screen, (0, 125, 255), pygame.Rect(30, 30, 60, 60))    
+    pygame.draw.rect(screen, (100, 125, 255), pygame.Rect(120, 30, 60, 60))    
 
     pygame.display.flip()
 pygame.quit()
